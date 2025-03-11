@@ -97,7 +97,7 @@ li > a {
   font-family: poppins;
   font-style: bold;  
   font-size: 44px;
-  font-weight: 700px;
+  font-weight: 500px;
   max-height: 108px;
   max-width: 510px;
 
@@ -110,6 +110,13 @@ li > a {
     display: flex;
     justify-content: center;
     text-align: left;
+    padding-top: 30px;
+
+  }
+  .button_box{
+    display: flex;
+    position: flex end;
+    padding-top: 40px;
 
   }
   .button_get {
@@ -123,15 +130,19 @@ li > a {
     font-size: 16px;
     font-family: poppins;
     font-style: bold;
+  
   }
   .button_watch {
     border: none;
     color:#FF9900 ;
-    padding: 14px 25px;
+    padding: 10px 10px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: inline-flex;
     font-size: 16px;
+    float: bottom;
+   
+ 
   }
   .button_watch::before {
     content: "▶"; /* Play Symbol */
